@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="weather-box">
+        <h1>Weather App</h1>
+        <!-- <p>Enter the city name:</p> -->
+        <label for="city">
+            <input type="text" id="city" name="city" placeholder="Enter city name (Pune)" required>
+        </label>
+        <button id="searchLocation">Search</button>
+        <div class="weather-info">
+            <p id="city-name">City Name: Pune</p> <!-- city name  -->
+            <p id="date-time">7/3/2024, 8:26:48 PM</p> <!-- date and time  -->
+            <p id="temp">Temperature: 25.21 ℃</p> <!-- temperature  -->
+            <p id="desc">Description: overcast clouds</p> <!-- weather desc  -->
+            <img src="https://openweathermap.org/img/wn/04n@2x.png" alt="weather icon" id="icon">
+            <p id="humidity">Humidity: 83</p> <!-- humidity  -->
+            <p id="wind-speed">Wind Speed: 4.77 m/s</p> <!-- wind speed  -->
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

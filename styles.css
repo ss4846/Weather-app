@@ -1,0 +1,75 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/7fa01fa3c406f724452c1601dd8a-1443399.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "PT Sans", sans-serif;
+}
+
+.weather-box{
+    max-width: 500px;
+    min-height: 300px;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius:15px;
+    font-size: 1.2em;
+}
+
+.weather-box *{
+    margin-bottom: 10px;
+}
+
+.weather-box img{
+    margin-bottom: 0px;
+}
+
+.weather-box h1{
+    margin-bottom: 30px;
+}
+
+.weather-box input{
+    max-width: 300px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid silver;
+    color: white;
+    border-radius: 3px;
+    height: 2em;
+    width: 400px;
+    padding: 3px 10px;
+    margin-bottom: 20px;
+}
+
+input::placeholder{
+    color: white;
+    font-size: 1.1em;
+    font-family: "PT Sans", sans-serif;
+}
+
+button{
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid silver;
+    color: white;
+    border-radius: 3px;
+    margin-bottom: 0px;
+    height: 2.22em;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 0.8em;
+    font-family: "PT Sans", sans-serif;
+    cursor: pointer;
+    position: relative;
+    bottom: -2px;
+}
